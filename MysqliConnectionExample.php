@@ -7,6 +7,8 @@
  */
 
 $connection = mysqli_connect($host, $user, $password, $database);
-$sql = 'SELECT * FROM table';
+
+$sql = 'SELECT * FROM TestTable WHERE 1';
 $result = mysqli_query($query, $connection);
+
 var_dump($result);
